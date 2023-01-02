@@ -11,8 +11,8 @@ const person = {
   lastName: "Ridwan"
 }
 
-for (const property in person){
-  document.writeln(`<p>Property ${property} : ${person[property]}</p>`)
+for (const property in person){// SIMPAN DI VAREABEL PROPERTY AMBIL DARI OBJECT PERSON
+  document.writeln(`<p>Property ${property} : ${person[property]}</p>`)// ngambil valuenya --> ${nama_Object[nama_variabel]}
 }
 
 // Kode : For In di Array
