@@ -6,3 +6,13 @@ Function :
 - Kita bisa memanggil function dengan menggunakan nama function lalu diikuti dengan kurung ()
 - Di bahasa pemrograman lain, function juga disebut dengan method
 */
+
+// Kode : Function
+function sayHelloWorld(){
+  document.writeln("<p>Hello World</p>")
+}
+
+// Memanggil function
+sayHelloWorld()
+sayHelloWorld()
+sayHelloWorld() // Boleh Berkali-kali
