@@ -12,8 +12,15 @@ for (const name of names){
   document.writeln(`<p> ${name} </p>`)
 }
 
+const items = ["a", "b", "c", "d", "e", "f"];
+for (const [index, item] of items.entries()){
+  document.writeln(`${index} : ${item}`)
+}
+
+
 // Kode : For Of di String
 const fullName = "Muhammad Rizhal Ridwan"
 for (const character of fullName){
   document.writeln(`<p>${character}</p>`)
-}
+} 
+

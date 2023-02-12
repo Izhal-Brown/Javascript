@@ -10,36 +10,31 @@ Function Return Value
 // Membuat function dengan parameter dan return value
 
 function sayHello(firstName, lastName) {
-  const say = `Hello ${firstName} ${lastName}`
-  return say
+  const say = `Hello ${firstName} ${lastName}`;
+  return say;
 }
 
 // memanggil function dan menangkap return valuenya
-const result = sayHello("Rizhal", "Ridwan")
-document.writeln(`<p>${result}</p>`)
-
-
+const result = sayHello("Rizhal", "Ridwan");
+document.writeln(`<p>${result}</p>`);
 
 // Kode function Return Value lebih dari satu
 function getFinalScore(value) {
   if (value > 90) {
-    return "A"
+    return "A";
   } else if (value > 80) {
-    return "B"
+    return "B";
   } else if (value > 70) {
-    return "C"
+    return "C";
   } else if (value > 60) {
-    return "D"
+    return "D";
   } else {
-    return "E"
+    return "E";
   }
 }
 
-const nilai = getFinalScore(76)
-document.writeln(`<p>${nilai}</p>`)
-
-
-
+const nilai = getFinalScore(76);
+document.writeln(`<p>${nilai}</p>`);
 
 /*
 Menghentikan Eksekusi dengan return
@@ -50,19 +45,19 @@ Menghentikan Eksekusi dengan return
 // Kode Menghentikan Eksekusi dengan Return
 function isContains(array, searchValue) {
   for (const element of array) {
-    console.info(`Iterasi Element ${element}`)
+    console.info(`Iterasi Element ${element}`);
     if (element === searchValue) {
-      return true
+      return true;
     }
   }
-  return false
+  return false;
 }
 
-document.writeln(isContains([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5))
+document.writeln(isContains([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5));
 
-// constoh lain
+// contoh lain
 
-const array = [1, 32, 4324, 3, 43, 53, 53, 43, 43, 535, 35, 5]
-const search = 10
-const found = isContains(array, search)
-document.writeln(`<p>${found}</p>`)
+const array = [1, 32, 4324, 3, 43, 53, 53, 43, 43, 535, 35, 5];
+const search = 10;
+const found = isContains(array, search);
+document.writeln(`<p>${found}</p>`);

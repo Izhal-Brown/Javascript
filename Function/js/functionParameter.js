@@ -15,4 +15,4 @@ function sayHello(firstName, lastName){
 
 // memanggil function dengan parameter
 sayHello("Rizhal", "Ridwan")
-sayHello("Rezha", "Raya") 
+sayHello("Rezha", "Raya")
