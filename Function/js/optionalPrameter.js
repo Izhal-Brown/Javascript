@@ -17,7 +17,7 @@ sayHello("Rizhal");
 /*
 Default Parameter :
 - Sekarang kita tahu bahwa parameter itu optional, artinya kita bisa tidak memberi value terhadap parameter
-- parameter juga bisa kita beri default value, artinya jika ketikak kita tidak mengirim data ke parameter atau kita mengirim data undefined, maka secara otomatis parameter akan diisi oleh default value
+- parameter juga bisa kita beri default value, artinya jika ketika kita tidak mengirim data ke parameter atau kita mengirim data undefined, maka secara otomatis parameter akan diisi oleh default value
 */
 
 // Kode : Default Parameter ->
